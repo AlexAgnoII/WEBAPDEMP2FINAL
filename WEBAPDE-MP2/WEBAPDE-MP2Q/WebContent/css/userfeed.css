@@ -47,13 +47,23 @@ body {
     background-color: snow;
     padding: 0px;
     margin-top: 10px;
-    padding-bottom: 50px;
-    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
     margin-bottom: 10px;
     align-content: center;
+    text-align: center;
+    display: none;
 }
 
-
+.pics {
+	width: 100%;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	margin: 0 auto;
+	margin-top: 1%;
+    display: block;  
+}
 
 .picwrapper .un {
     font-family: "Raleway";
@@ -62,26 +72,43 @@ body {
     width: 70%;
     font-weight: 600;
     margin-bottom: 0px;
-    margin-top: 5px;
-    padding-left: 5%;
+    margin-top: 1px;
+    padding-left: 3%;
     display: inline;
     float: left;
+    line-height: 100%;
 }
 
 .caption {
     font-family: "Raleway";
     text-align: left;
     float: left;
-    font-size: 80%;
+    font-size: 75%;
     width: 95%;
     font-weight: 400;
     margin-top: 0px;
+    margin-bottom: 1px;
     padding-left: 7%;
+    line-height: 100%;
 }
 
 #addtag {
     float: right;
-    padding-right: 5%;
+    padding-right: 3%;
+}
+
+#tags {
+    font-family: "Raleway";
+    float: left;
+    padding-left: 4%;
+    font-size: 70%;
+    margin: 0px;
+    margin-top: 1px;
+}
+
+hr {
+	display: block;
+	margin: 1px;
 }
 
 #header #dropmenu {
@@ -134,34 +161,6 @@ body {
     border-width: 1.5px;
 }
 
-#tagdiv {
-	position: relative;
-    width: 20%;
-    height: 70%;
-    top: 50%;
-    margin: 0 auto;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    background-color: white;
-    text-align: center;
-    overflow: scroll;
-
-}
-
-#tags {
-    width: 70%;
-    height: 23px;
-    border-radius: 4px;
-    border-color: black;
-    border-style: solid;
-    border-width: 0.5px;
-    margin-top: 0px;
-    padding: 0px;
-    background: white;   
-    display: inline;
-}
-
 #aticon {
     display: inline-block;
     margin-top: 0px;
@@ -171,7 +170,6 @@ body {
 -------------------
 #pics {
 	width: 90%;
-
 }
 
 .card {

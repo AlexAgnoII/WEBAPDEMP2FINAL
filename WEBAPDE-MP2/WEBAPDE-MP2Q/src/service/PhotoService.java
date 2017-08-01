@@ -28,7 +28,7 @@ public class PhotoService {
 		photos.add(photo8);
 		
 		photo1.setTitle("photo 1");
-		photo1.setDescription("first photo");
+		photo1.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 		photo1.setUploader("User 1");
 		photo1.setUrl("img\\public\\1.jpg");
 		photo1.setTags("Outdoor");
@@ -36,7 +36,7 @@ public class PhotoService {
 		photo1.setPrivacy("public");
 		
 		photo2.setTitle("photo 2");
-		photo2.setDescription("second photo");
+		photo2.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.o");
 		photo2.setUploader("User 2");
 		photo2.setUrl("img\\public\\2.jpg");
 		photo2.setTags("Outdoor");
@@ -44,7 +44,7 @@ public class PhotoService {
 		photo2.setPrivacy("public");
 		
 		photo3.setTitle("photo 3");
-		photo3.setDescription("third photo");
+		photo3.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 		photo3.setUploader("User 3");
 		photo3.setUrl("img\\public\\3.jpg");
 		photo3.setTags("Indoor");
@@ -52,14 +52,14 @@ public class PhotoService {
 		photo3.setPrivacy("public");
 		
 		photo4.setTitle("photo 4");
-		photo4.setDescription("fourth photo");
+		photo4.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 		photo4.setUploader("User 4");
 		photo4.setUrl("img\\public\\4.jpg");
 		photo4.setTags("Family");
 		photo4.setPrivacy("public");
 		
 		photo5.setTitle("photo 5");
-		photo5.setDescription("fifth photo");
+		photo5.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 		photo5.setUploader("User 5");
 		photo5.setUrl("img\\public\\5.jpg");
 		photo5.setTags("Work");
@@ -67,7 +67,7 @@ public class PhotoService {
 		photo5.setPrivacy("private");
 	
 		photo6.setTitle("photo 6");
-		photo6.setDescription("sixth photo");
+		photo6.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 		photo6.setUploader("User 6");
 		photo6.setUrl("img\\public\\6.jpg");
 		photo6.setTags("Music");
@@ -75,7 +75,7 @@ public class PhotoService {
 		photo6.setPrivacy("private");
 	
 		photo7.setTitle("photo 7");
-		photo7.setDescription("seventh photo");
+		photo7.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 		photo7.setUploader("User 7");
 		photo7.setUrl("img\\public\\7.jpg");
 		photo7.setTags("Outdoor");
@@ -83,7 +83,7 @@ public class PhotoService {
 		photo7.setPrivacy("private");
 		
 		photo8.setTitle("photo 8");
-		photo8.setDescription("eighth photo");
+		photo8.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 		photo8.setUploader("User 8");
 		photo8.setUrl("img\\public\\8.jpg");
 		photo8.setTags("Work");

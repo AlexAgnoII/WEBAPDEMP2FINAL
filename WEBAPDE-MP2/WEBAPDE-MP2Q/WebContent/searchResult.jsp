@@ -26,7 +26,20 @@
       
 </head>
 <body>
-	<div id="header">
+	  <div id="header">
+              <a class="dropdown-button btn" href='#' data-activates="menu" id="dropmenu"> <i class="material-icons" id="icon">menu</i></a>
+
+              <!-- menu contents -->
+              <ul id="menu" class='dropdown-content'>
+              	  
+                  <li><a href="userfeed.jsp">home</a></li>
+                  <li><a href="profile.jsp">profile</a></li>
+                  <li><a href="logout">logout</a></li>
+                   <!-- Redirects to logout servlet. -->
+              </ul>
+              
+              <p id="userwel">Welcome, ${sessionScope.un}!</p>
+              
             <a id="search"><i class="material-icons" id="magglass">search</i></a>
             <form method="get" action="photoSearch" id="searchBar"><input type="text" id="searchbox" name="search"></form>
         </div>

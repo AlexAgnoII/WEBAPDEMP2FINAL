@@ -88,17 +88,21 @@
         </div>
         
         <div id = "hfeed">
-            <a data-fancybox="gallery" href="img/public/10.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/1.jpg" class="pics"></a>
-            <a data-fancybox="gallery" href="img/public/2.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/2.jpg" class="pics"></a>
-            <a data-fancybox="gallery" href="img/public/3.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/3.jpg" class="pics"></a>
-            <a data-fancybox="gallery" href="img/public/4.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/4.jpg" class="pics"></a>
-            <a data-fancybox="gallery" href="img/public/5.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/5.jpg" class="pics"></a>
-            <a data-fancybox="gallery" href="img/public/6.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/6.jpg" class="pics"></a>
-             <a data-fancybox="gallery" href="img/public/7.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/7.jpg" class="pics"></a>
-            <a data-fancybox="gallery" href="img/public/8.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/8.jpg" class="pics"></a>
-            <a data-fancybox="gallery" href="img/public/9.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/9.jpg" class="pics"></a>
-            <a data-fancybox="gallery" href="img/public/10.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/10.jpg" class="pics"></a>
-            <a data-fancybox="gallery" href="img/public/11.jpg" data-caption="helpppp<br><strong>jesssss</strong>"><img src="img/public/11.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/1.jpg" data-caption="<strong>@alexagnoii</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/1.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/2.jpg" data-caption="<strong>@jessganoww</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/2.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/3.jpg" data-caption="<strong>@sedilloclaude</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/3.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/4.jpg" data-caption="<strong>@alexagnoii</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/4.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/5.jpg" data-caption="<strong>@jessganoww</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/5.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/6.jpg" data-caption="<strong>@sedilloclaude</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/6.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/7.jpg" data-caption="<strong>@alexagnoii</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/7.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/8.jpg" data-caption="<strong>@jessganoww</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/8.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/9.jpg" data-caption="<strong>@sedilloclaude</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/9.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/10.jpg" data-caption="<strong>@alexagnoii</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/10.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/11.jpg" data-caption="<strong>@jessganoww</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/11.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/12.jpg" data-caption="<strong>@sedilloclaude</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/12.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/13.jpg" data-caption="<strong>@alexagnoii</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/13.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/14.jpg" data-caption="<strong>@jessganoww</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/14.jpg" class="pics"></a>
+            <a data-fancybox="gallery" href="img/public/15.jpg" data-caption="<strong>@sedilloclaude</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/public/15.jpg" class="pics"></a>
           
           	<br>
             <a href="#" id="showb">show more</a>

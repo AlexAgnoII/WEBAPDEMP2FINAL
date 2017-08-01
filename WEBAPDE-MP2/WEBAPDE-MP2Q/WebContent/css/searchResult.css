@@ -7,8 +7,6 @@ body {
     background-attachment: fixed;
 }
 
-
-
 #header {
     background-color: snow;
     position: fixed;
@@ -47,16 +45,18 @@ body {
     background-color: snow;
     padding: 0px;
     margin-top: 10px;
-    padding-bottom: 50px;
-    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
     margin-bottom: 10px;
     align-content: center;
+    text-align: center;
 }
 
 .pics {
 	width: 100%;
 	padding: 10px;
-	padding-bottom: 2px;
+	padding-top: 0px;
+	padding-bottom: 4px;
 	margin: 0 auto;
 	margin-top: 1%;
     display: block;  
@@ -75,7 +75,7 @@ body {
     width: 70%;
     font-weight: 600;
     margin-bottom: 0px;
-    margin-top: 5px;
+    margin-top: 1px;
     padding-left: 3%;
     display: inline;
     float: left;
@@ -90,6 +90,7 @@ body {
     width: 95%;
     font-weight: 400;
     margin-top: 0px;
+    margin-bottom: 1px;
     padding-left: 7%;
     line-height: 100%;
 }
@@ -111,3 +112,31 @@ h1#notFound{
 	    font-family: "Raleway";
 	    color: snow;
 }
+
+#header #dropmenu {
+    float: left;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.9);
+    color: snow;
+    font-family: "Raleway";
+    border-radius: 0px;
+    width: 20px;
+    text-align: center;
+}
+
+#icon {
+	margin-top: 8px;
+    left: -10px;
+    position: relative;
+}
+
+
+#userwel {
+	font-family: "Raleway";
+	font-style: italic;
+	padding: 14px;
+	float: left;
+	margin: 0px;
+	font-weight: 500;
+}
+
