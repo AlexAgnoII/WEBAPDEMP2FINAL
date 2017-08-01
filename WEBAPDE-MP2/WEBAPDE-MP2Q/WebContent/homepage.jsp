@@ -31,15 +31,13 @@
        <script> 
              function showLogin () {
                $("#logindiv").slideToggle();
-               $("#signupdiv").slideUp();
-                
+               $("#signupdiv").slideUp();  
             }
             
             function showSignUp () {
                 $("#signupdiv").slideToggle();
                 $("#logindiv").slideUp();
             }
-        
 
         </script>
         
@@ -49,7 +47,7 @@
             <form method="get" action="photoSearch" id="searchBar"><input type="text" id="searchbox" name="search"></form>
                 
             
-            <p id="title">NYEAAAM</p>
+            <p id="title">THIS-PIC</p>
                 
              <div id = "logindiv">
                 <form action="login" method="POST">
@@ -77,7 +75,7 @@
                     <textarea id="description" name="desc"></textarea>
                     <br> <span id="maxCount">Character:</span> <span id="keyCount">120</span><br><!-- This is new and needed -lex -->
                 	
-                	<input type="submit" value="Sign up"> <!-- This is the button, para ma send data to servlet -lex -->
+                	<input type="submit" value="Sign up"> 
                 </form>
                 
                 </div>

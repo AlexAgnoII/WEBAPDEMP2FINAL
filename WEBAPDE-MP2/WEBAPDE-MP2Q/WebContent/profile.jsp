@@ -56,44 +56,51 @@
             </div>
             
             <div id="userphotos">
-                <a data-fancybox="gallery" href="img/private/1.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                <a data-fancybox="gallery" href="img/private/1.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/1.jpg" class="pics"></a>
                 
-                   <a data-fancybox="gallery" href="img/private/2.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                   <a data-fancybox="gallery" href="img/private/2.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/2.jpg" class="pics"></a>
                 
-                <a data-fancybox="gallery" href="img/private/3.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                <a data-fancybox="gallery" href="img/private/3.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/3.jpg" class="pics"></a>
                 
-                <a data-fancybox="gallery" href="img/private/4.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                <a data-fancybox="gallery" href="img/private/4.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/4.jpg" class="pics"></a>
                 
-                <a data-fancybox="gallery" href="img/private/5.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                <a data-fancybox="gallery" href="img/private/5.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/5.jpg" class="pics"></a>
                 
-                <a data-fancybox="gallery" href="img/private/6.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                <a data-fancybox="gallery" href="img/private/6.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/6.jpg" class="pics"></a>
                 
-                <a data-fancybox="gallery" href="img/private/7.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                <a data-fancybox="gallery" href="img/private/7.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/7.jpg" class="pics"></a>
                 
-                <a data-fancybox="gallery" href="img/private/8.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                <a data-fancybox="gallery" href="img/private/8.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/8.jpg" class="pics"></a>
                 
-                <a data-fancybox="gallery" href="img/private/9.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                <a data-fancybox="gallery" href="img/private/9.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/9.jpg" class="pics"></a>
                 
-                 <a data-fancybox="gallery" href="img/private/10.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                 <a data-fancybox="gallery" href="img/private/10.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                  <img src="img/private/10.jpg" class="pics"></a>
                 
-                <a data-fancybox="gallery" href="img/private/11.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                <a data-fancybox="gallery" href="img/private/11.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/11.jpg" class="pics"></a>
                 
-                <a data-fancybox="gallery" href="img/private/12.jpg" data-caption="helpppp<br><strong>jesssss</strong>">
+                <a data-fancybox="gallery" href="img/private/12.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
                 <img src="img/private/12.jpg" class="pics"></a>
                 
+                <a data-fancybox="gallery" href="img/private/13.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
+                <img src="img/private/13.jpg" class="pics"></a>
                 
-             
+                <a data-fancybox="gallery" href="img/private/14.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
+                <img src="img/private/14.jpg" class="pics"></a>
+                
+                <a data-fancybox="gallery" href="img/private/15.jpg" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit<br><strong>@admin</strong>">
+                <img src="img/private/15.jpg" class="pics"></a>
+   
                 <a href="#" id="showb">show more</a>
             
             </div>

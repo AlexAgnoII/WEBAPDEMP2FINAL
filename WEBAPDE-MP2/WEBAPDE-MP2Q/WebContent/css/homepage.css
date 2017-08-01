@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Vidaloka);
+@import url(//fonts.googleapis.com/css?family=Federo);
 @import url(//fonts.googleapis.com/css?family=Raleway:400,600,900);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
@@ -18,7 +18,7 @@
     height: 5%;
     width: 50%;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 2px;
     background: rgba(0, 0, 0, 0.65);
     border: 1px solid snow;
     box-shadow: 2px 2px 2px #252525;
@@ -64,12 +64,11 @@
 
 #title {
     color: white;
-    font-family: "Vidaloka";
+    font-family: "Federo";
     font-size: 50px;
     line-height: 100%;
     margin: 0 auto;
-    margin-top: 31%;
-    width: ;
+    margin-top: 30%;
     text-align: center;
 }
 
@@ -119,7 +118,7 @@
 #signupdiv {
     background-color: transparent;
     margin: 0 auto;
-    height: 34%;
+    height: 38%;
     width: 70%;
     border-style: solid;
     border-color: snow;
@@ -238,18 +237,20 @@
 }
 
 .checkbox-black.filled-in[type="checkbox"] + label:after{
-  border: 2px solid snow;
-  background: transparent;
+  	border: 2px solid snow;
+ 	background: transparent;
 }
 .checkbox-black.filled-in[type="checkbox"]:checked + label:after{
-  background: black;
+ 	background: black;
 }
 .checkbox-black.filled-in[type="checkbox"]:checked + label:before{
-  border-top: 2px solid transparent;
-  border-left: 2px solid transparent;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+	 border-top: 2px solid transparent;
+	 border-left: 2px solid transparent;
+	 border-right: 2px solid #fff;
+	 border-bottom: 2px solid #fff;
 }
+
+
 
 a#search:hover{
 	cursor:pointer;

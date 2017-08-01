@@ -44,25 +44,14 @@ body {
     margin: 0 auto;
     background-color: snow;
     padding: 0px;
+    margin-top: 10px;
     padding-bottom: 50px;
     padding-top: 15px;
     margin-bottom: 10px;
     align-content: center;
 }
 
-.pics {
-	width: 90%;
-	margin: 0 auto;
-	margin-top: 1%;
-    border-style: solid;
-    border-color: rgba (0, 0, 0, 0.7);
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    display: block;
-    
-    
-}
+
 
 .picwrapper .un {
     font-family: "Raleway";
@@ -178,17 +167,15 @@ body {
 }
 
 -------------------
-
 #pics {
-    width: 70%;
-    padding: 5px;
-    margin-top: 5px;
+	width: 90%;
+
 }
 
 .card {
     width: 40%;
     margin: 0 auto;
-    height: 95%;
+    height: 90%;
     display: none;
     margin-bottom: 5px;
 }
@@ -228,11 +215,6 @@ body {
     padding-right: 2%;
 }
 
-#idtagname {
-    font-family: "Raleway";
-    text-align: left;
-    font-size: 15px;
-}
 
 a#search:hover{
 	cursor:pointer;
