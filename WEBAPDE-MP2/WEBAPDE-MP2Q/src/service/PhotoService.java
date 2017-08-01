@@ -29,7 +29,7 @@ public class PhotoService {
 		
 		photo1.setTitle("photo 1");
 		photo1.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-		photo1.setUploader("User 1");
+		photo1.setUploader("@alexagnoii");
 		photo1.setUrl("img\\public\\1.jpg");
 		photo1.setTags("Outdoor");
 		photo1.setTags("Nature");
@@ -37,7 +37,7 @@ public class PhotoService {
 		
 		photo2.setTitle("photo 2");
 		photo2.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.o");
-		photo2.setUploader("User 2");
+		photo2.setUploader("@jessganoww");
 		photo2.setUrl("img\\public\\2.jpg");
 		photo2.setTags("Outdoor");
 		photo2.setTags("Philosophy");
@@ -45,7 +45,7 @@ public class PhotoService {
 		
 		photo3.setTitle("photo 3");
 		photo3.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-		photo3.setUploader("User 3");
+		photo3.setUploader("@sedilloclaude");
 		photo3.setUrl("img\\public\\3.jpg");
 		photo3.setTags("Indoor");
 		photo3.setTags("Food");
@@ -53,42 +53,42 @@ public class PhotoService {
 		
 		photo4.setTitle("photo 4");
 		photo4.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-		photo4.setUploader("User 4");
+		photo4.setUploader("@alexagnoii");
 		photo4.setUrl("img\\public\\4.jpg");
 		photo4.setTags("Family");
 		photo4.setPrivacy("public");
 		
 		photo5.setTitle("photo 5");
 		photo5.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-		photo5.setUploader("User 5");
+		photo5.setUploader("@jessganoww");
 		photo5.setUrl("img\\public\\5.jpg");
 		photo5.setTags("Work");
 		photo5.setTags("Food");
-		photo5.setPrivacy("private");
+		photo5.setPrivacy("public");
 	
 		photo6.setTitle("photo 6");
 		photo6.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-		photo6.setUploader("User 6");
+		photo6.setUploader("@sedilloclaude");
 		photo6.setUrl("img\\public\\6.jpg");
 		photo6.setTags("Music");
 		photo6.setTags("Fun");
-		photo6.setPrivacy("private");
+		photo6.setPrivacy("public");
 	
 		photo7.setTitle("photo 7");
 		photo7.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-		photo7.setUploader("User 7");
+		photo7.setUploader("@alexagnoii");
 		photo7.setUrl("img\\public\\7.jpg");
 		photo7.setTags("Outdoor");
 		photo7.setTags("Vacation");
-		photo7.setPrivacy("private");
+		photo7.setPrivacy("public");
 		
 		photo8.setTitle("photo 8");
 		photo8.setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-		photo8.setUploader("User 8");
+		photo8.setUploader("@jessganoww");
 		photo8.setUrl("img\\public\\8.jpg");
 		photo8.setTags("Work");
 		photo8.setTags("Food");
-		photo8.setPrivacy("private");
+		photo8.setPrivacy("public");
 	}
 	public ArrayList<Photo> getPhotos() {
 		return photos;

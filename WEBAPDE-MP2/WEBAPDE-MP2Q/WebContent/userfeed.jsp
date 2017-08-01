@@ -53,7 +53,7 @@
                 <p class="un">@admin</p><br>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <br><hr>
-                <p id="tags">#filmphotography #travel #goals #blessed</p>
+                <p id="tags">no tags</p>
             </div>
  
             <div class="picwrapper">
@@ -69,7 +69,7 @@
                 <p class="un">@admin</p><br>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <br><hr>
-                <p id="tags">#filmphotography #travel #goals #blessed</p>
+                <p id="tags">no tags</p>
             </div>
  
             <div class="picwrapper">
@@ -85,7 +85,7 @@
                 <p class="un">@admin</p><br>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <br><hr>
-                <p id="tags">#filmphotography #travel #goals #blessed</p>
+                <p id="tags">no tags</p>
             </div>
             
             <div class="picwrapper">
@@ -101,7 +101,7 @@
                 <p class="un">@admin</p><br>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <br><hr>
-                <p id="tags">#filmphotography #travel #goals #blessed</p>
+                <p id="tags">no tags</p>
             </div>
     
             <div class="picwrapper">
@@ -117,7 +117,7 @@
                 <p class="un">@admin</p><br>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <br><hr>
-                <p id="tags">#Work #Food</p>
+                <p id="tags">no tags</p>
             </div>
             
             <div class="picwrapper">
@@ -125,7 +125,7 @@
                 <p class="un">@jessganoww</p><br>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <br><hr>
-                <p id="tags">#filmphotography #travel #goals #blessed</p>
+                <p id="tags">#Work #Food</p>
             </div>
             
             <div class="picwrapper">
@@ -133,7 +133,7 @@
                 <p class="un">@admin</p><br>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <br><hr>
-                <p id="tags">#Music #Fun</p>
+                <p id="tags">no tags</p>
             </div>
             
             <div class="picwrapper">
@@ -141,13 +141,13 @@
                 <p class="un">@sedilloclaude</p><br>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <br><hr>
-                <p id="tags">#filmphotography #travel #goals #blessed</p>
+                <p id="tags">#Music #Fun</p>
             </div>
             
              <div class="picwrapper">
                 <img src="img/private/7.jpg" class="pics">
                 <p class="un">@admin</p><br>
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="caption">no tags</p>
                 <br><hr>
                 <p id="tags"></p>
             </div>
@@ -165,7 +165,7 @@
                 <p class="un">@admin</p><br>
                 <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <br><hr>
-                <p id="tags">#filmphotography #travel #goals #blessed</p>
+                <p id="tags">no tags</p>
             </div>
             
             <div class="picwrapper">
