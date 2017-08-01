@@ -26,16 +26,6 @@
       
 </head>
 <body>
-		<div id="tagdiv">
-            <p> Add tags:</p>    
-            <form method="POST">
-             <div id="formdiv">
-                  <input type="text" name="myInputs[]" id="tags">
-             </div> <i class="material-icons" id="aticon" onClick="addInput('formdiv');">add_circle_outline</i>
-        </form>
-        
-        </div>
-
  	  <div id="header">
               <a class="dropdown-button btn" href='#' data-activates="menu" id="dropmenu"> <i class="material-icons" id="icon">menu</i></a>
 
@@ -54,61 +44,260 @@
         
         <!-- This is a test, you can use this for showing attributes from the session. -->
 			Username: ${sessionScope.un} <br>
-           
+          
+    
         <div id="feed">
-            <div class="picwrapper">
-                <img src="img/public/1.jpg" class="pics">
-                <p class="un"> alexagnoii</p><i class="material-icons" onclick="showTagDiv()" id="addtag">loupe</i><br><p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>   
+            <div class="card">
+                  <img class="activator" src="img/private/1.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@admin
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
+              </div>
+ 
+            <div class="card">
+                  <img class="activator" src="img/public/1.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@alexagnoii
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
+            </div>
+
+            <div class="card">
+                  <img class="activator" src="img/private/2.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@admin
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
+            </div>
+ 
+            <div class="card">
+                  <img class="activator" src="img/public/2.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@jessganoww
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
+            </div>
+ 
+            <div class="card">
+                  <img class="activator" src="img/private/3.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@admin
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
             </div>
             
-            <div class="picwrapper">
-                <img src="img/private/1.jpg" width="40%" class="pics">
-                <p class="un"> jessganoww</p><i class="material-icons" id="addtag">loupe</i><br><p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>   
+            <div class="card">
+                  <img class="activator" src="img/public/3.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@sedilloclaude
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
+            </div>
+
+            <div class="card">
+                  <img class="activator" src="img/private/4.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@admin
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                  <img class="activator" src="img/public/4.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@alexagnoii
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
             </div>
             
-            <div class="picwrapper">
-                <img src="img/public/2.jpg" width="40%" class="pics">
-                <p class="un"> sedillocalaude_</p><i class="material-icons" id="addtag">loupe</i><br><p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>   
+             <div class="card">
+                  <img class="activator" src="img/private/5.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@admin
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
             </div>
             
-            <div class="picwrapper">
-                <img src="img/private/2.jpg" width="40%" class="pics">
-                <p class="un">jessganoww</p><i class="material-icons" id="addtag">loupe</i><br><p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>   
+             <div class="card">
+                  <img class="activator" src="img/public/5.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@jessganoww
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
             </div>
             
-            <div class="picwrapper">
-                <img src="img/public/3.jpg" width="40%" class="pics">
-                <p class="un">gabsantiago</p><i class="material-icons" id="addtag">loupe</i><br><p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>   
+             <div class="card">
+                  <img class="activator" src="img/private/6.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@admin
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
             </div>
             
-            <div class="picwrapper">
-                <img src="img/private/3.jpg" width="40%" class="pics">
-                <p class="un">alexagnoii</p><i class="material-icons" id="addtag">loupe</i><br><p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>   
+            <div class="card">
+                  <img class="activator" src="img/public/6.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@sedilloclaude
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
             </div>
             
-            <div class="picwrapper">
-                <img src="img/public/4.jpg" width="40%" class="pics">
-                <p class="un">sedilloclaude_</p><i class="material-icons" id="addtag">loupe</i><br><p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>   
+             <div class="card">
+                  <img class="activator" src="img/private/7.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@admin
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
             </div>
             
-            <div class="picwrapper">
-                <img src="img/private/3.jpg" width="40%" class="pics">
-                <p class="un">jessganoww</p><i class="material-icons" id="addtag">loupe</i><br><p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>   
+             <div class="card">
+                  <img class="activator" src="img/public/7.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@alexagnoii
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
+            </div>
+            
+             <div class="card">
+                  <img class="activator" src="img/private/8.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@admin
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
+            </div>
+            
+             <div class="card">
+                  <img class="activator" src="img/public/8.jpg" id="pics" style="width: 100%; padding: 10px;">
+                
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4" id="un">@jessganoww
+                  <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor haha haha incididunt ut labore et dolore magna aliqua.</p> 
+                  <i class="material-icons right">more_horiz</i></span> 
+                </div>
+                
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4" id="tagname">Tags<i class="material-icons right">close</i></span>
+                  <p>#travel #everyday #filmphotography</p>
+                </div>
             </div>
             
             <a href="#" id="showb">show more</a>
             
         </div>
         
-        
-        
          <script>
             $(function () {
-                $(".picwrapper").slice(0, 4).show();
+                $(".card").slice(0, 5).show();
                 $("#showb").on('click', function (e) {
                     e.preventDefault();
-                    $(".picwrapper:hidden").slice(0, 3).slideDown("slow");
-                    if ($(".picwrapper:hidden").length == 0) {
+                    $(".card:hidden").slice(0, 3).slideDown("slow");
+                    if ($(".card:hidden").length == 0) {
                         $("#showb").fadeOut("fast");
                     } 
                 });

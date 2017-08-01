@@ -47,8 +47,8 @@
                 <img src="img/DP.png" id="dp">
                 
                 <div id="userinfo">
-                    <p id="name">Lorem Ipsum</p>
-                    <p id="uname">@loremipsum</p>
+                    <p id="name">Admin Me</p>
+                    <p id="uname">@admin</p>
                     <p id="desc">Film photographer and part time white elephant. #onFilm for my photographs!</p> 
                 </div>
                 

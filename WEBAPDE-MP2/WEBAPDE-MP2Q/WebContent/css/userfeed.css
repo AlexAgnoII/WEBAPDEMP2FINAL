@@ -99,10 +99,15 @@ body {
     background: rgba(0, 0, 0, 0.9);
     color: snow;
     font-family: "Raleway";
+    border-radius: 0px;
+    width: 20px;
+    text-align: center;
 }
 
 #icon {
-    margin-top: 8px;
+	margin-top: 8px;
+    left: -10px;
+    position: relative;
 }
 
 #feed {
@@ -170,4 +175,61 @@ body {
     display: inline-block;
     margin-top: 0px;
     
+}
+
+-------------------
+
+#pics {
+    width: 70%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.card {
+    width: 40%;
+    margin: 0 auto;
+    height: 95%;
+    display: none;
+    margin-bottom: 5px;
+}
+
+#un {
+	position: relative;
+	top: -70%;
+    font-family: "Raleway";
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px;
+    display: block;
+    float: left;
+    line-height: 100%;
+}
+
+.card-content {
+	padding: 0px;
+	margin: 0px;
+	height: 80px;
+}
+
+#caption {
+	position: relative;
+	top: -100%;
+    font-family: "Raleway";
+    text-align: left;
+    float: left;
+    font-size: 80%;
+    width: 100%;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+
+#idtagname {
+    font-family: "Raleway";
+    text-align: left;
+    font-size: 15px;
 }
