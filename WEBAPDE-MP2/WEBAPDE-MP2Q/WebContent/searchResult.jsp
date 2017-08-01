@@ -9,5 +9,8 @@
 </head>
 <body>
 	<h1> OHAIYO GOSAIMAS</h1>
+	<c:forEach items="${Photo}" var = "p">
+		<img src="${p.url}" alt="${p.title}">
+	</c:forEach>
 </body>
 </html>

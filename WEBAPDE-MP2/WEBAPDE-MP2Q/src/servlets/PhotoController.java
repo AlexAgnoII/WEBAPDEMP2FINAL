@@ -1,6 +1,7 @@
 package servlets;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import bean.Photo;
 import service.PhotoService;
 
 /**
@@ -55,10 +57,21 @@ public class PhotoController extends HttpServlet {
 	
 	public void filterByTag(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		PhotoService ps = new PhotoService();
-		request.setAttribute("Photo", ps.filterByTag(request.getParameter("tag")));
+		ArrayList<Photo> test = new ArrayList<Photo>();
+		System.out.println(request.getParameter("search"));
+		
+		test = ps.filterByTag(request.getParameter("search"));
+		if(test != null) {
+			for (Photo p : test) {
+				System.out.println(p.getTitle());
+			}
+		
+		request.setAttribute("Photo", test);
 		
 		request.getRequestDispatcher("searchResult.jsp").forward(request,  response);
-		System.out.println(request.getParameter("tag"));
+		}
+		
+		else System.out.println("PHOTO NOT FOUND");
 	}
 	
 	public void addPhoto(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -18,7 +18,7 @@
  	<form method="post" action="upload">
        <p>Select a file</p>
        <input type="file" name="pic" accept="image/*" onchange="readURL(this);">
-       <img id="image" src="default.gif" alt="your image" />
+       <img id="image" src="img/default.gif" alt="your image" />
         
     	<p>Are you sure with your photo? </p>
        <input type="submit" value="Yes! Upload it.">

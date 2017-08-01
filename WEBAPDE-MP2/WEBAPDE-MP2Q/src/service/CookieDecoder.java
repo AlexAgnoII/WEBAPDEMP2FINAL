@@ -10,7 +10,7 @@ public class CookieDecoder {
 		parts = theSentence.split("\\|");
 		System.out.println("parts: " +parts[0] + " and " + parts[1]);
 	}
-	
+
 	//Returns the value of the Cookie
 	public String getValue() {
 		return parts[0];
