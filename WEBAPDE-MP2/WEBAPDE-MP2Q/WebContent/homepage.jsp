@@ -23,6 +23,8 @@
       
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script> 
+    
+
     </head>
     
     <body>
@@ -43,8 +45,8 @@
         
 
         <div class = "rightpane">
-            <i class="material-icons" id="magglass">search</i>
-            <form method="get" action="photoSearch"><input type="text" id="searchbox" name="search"> <input type="submit"></form>
+            <a id="search"><i class="material-icons" id="magglass">search</i></a>
+            <form method="get" action="photoSearch" id="searchBar"><input type="text" id="searchbox" name="search"></form>
                 
             
             <p id="title">NYEAAAM</p>
@@ -108,8 +110,6 @@
               <script>
         
         $("document").ready(function() {
-        	
-        
 	        $(function () {
 	            $(".pics").slice(0, 6).show();
 	             $("#showb").on('click', function (e) {
@@ -128,7 +128,7 @@
 	           
 	        });
 	        
-	        
+	      	//Characters remaining for description sign up.
 	        $("textarea#description").keypress(function(e) {
 	        	//count = $("textarea#description").val().length;
 	        	count = $("span#keyCount").html();
@@ -144,6 +144,7 @@
 	      	
 	        });
 	        
+	        //Characters remaining for description sign up.
 	        $("textarea#description").keyup(function(e) {
 	        	if(e.keyCode == 8 || e.keyCode == 46) {
 	        		var descLength = $("textarea#description").val().length;
@@ -163,7 +164,17 @@
 	        	}
 	        	
 	        })
+	        
+	        //Submit form once image if clicked.
+	        $("a#search").click(function() {
+	        	$("form#searchBar").submit();
+	        });
+	        
+	        
         });
+        
+        
+        
 	     </script>
 
 

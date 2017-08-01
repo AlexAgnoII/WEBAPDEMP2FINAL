@@ -28,16 +28,17 @@
 <meta charset="ISO-8859-1">
 </head>
 <body>
+	
  	  <div id="uploaddiv">
             <div id="left">
                 <p>Select file</p>
-                <form method="post" action="upload">
-                <input type="file" id= "uploadb" name="pic" accept="image/*" onchange="readURL(this);"></form>
+                <form method="post" action="upload" id="uploadPic">
+                <input type="file" id= "uploadb" name="pic" accept="image/*" onchange="readURL(this);" data-classIcon="icon-plus"></form>
                 
-                <p>Are you sure with your photo? </p>
-                <input type="submit" value="Yes! Upload it.">
-
-               <a href="profile.jsp">Cancel</a>
+                <div id="question">
+	                <a class="waves-effect waves-light btn" id="upload">Upload</a> <br>
+	                <a class="waves-effect waves-light btn" id="back" href="profile.jsp">Back</a> <br>
+               	</div>
             </div>
             
             <div id="right">
@@ -58,6 +59,21 @@
              reader.readAsDataURL(input.files[0]);
              }
            }
+           
+           $(document).ready(function() {
+        	   $("a#upload").click(function() {
+        		  var path = $("input#uploadb").val();
+        		  console.log(path);
+        		  if(path.length != 0) {
+        			  Materialize.toast('Uploading! Please wait..', 4000)
+        			  $("form#uploadPic").submit();
+        		  }
+        		  
+        		  else {
+        			  Materialize.toast('Please choose a file!', 4000)
+        		  }
+        	   });
+           });
         </script>
 </body>
 </html>

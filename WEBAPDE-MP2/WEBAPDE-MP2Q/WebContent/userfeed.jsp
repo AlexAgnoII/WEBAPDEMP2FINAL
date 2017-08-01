@@ -31,19 +31,20 @@
 
               <!-- menu contents -->
               <ul id="menu" class='dropdown-content'>
-              	  <li><a href="logout">logout</a></li>
+              	  
                   <li><a href="userfeed.jsp">home</a></li>
                   <li><a href="profile.jsp">profile</a></li>
+                  <li><a href="logout">logout</a></li>
                    <!-- Redirects to logout servlet. -->
               </ul>
               
               
-            <i class="material-icons" id="magglass">search</i>
-            <form method="get" action="photoSearch"><input type="text" id="searchbox" name="search"></form>
+            <a id="search"><i class="material-icons" id="magglass">search</i></a>
+            <form method="get" action="photoSearch" id="searchBar"><input type="text" id="searchbox" name="search"></form>
         </div>
         
         <!-- This is a test, you can use this for showing attributes from the session. -->
-			Username: ${sessionScope.un} <br>
+			<!-- Username: ${sessionScope.un} <br> -->
           
     
         <div id="feed">
@@ -317,6 +318,11 @@
                  console.log("clicked");
                  $("#tagdiv").fadeIn();
              }
+             
+ 	        //Submit form once image if clicked.
+ 	        $("a#search").click(function() {
+ 	        	$("form#searchBar").submit();
+ 	        });
     
         </script>
 </body>

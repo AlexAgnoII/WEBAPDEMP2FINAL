@@ -30,15 +30,16 @@
 
           <!-- menu contents -->
           <ul id="menu" class='dropdown-content'>
+          	  <li><a href="upload.jsp">Upload photo</a></li>
+          	  <li class="divider"></li>
               <li><a href="userfeed.jsp">home</a></li>
               <li><a href="profile.jsp">profile</a></li>
               <li><a href="logout">logout</a></li> <!-- Redirects to logout servlet. -->
-              <li class="divider"></li>
-               <li><a href="upload.jsp">Upload photo</a></li>
+
           </ul>
             
-            <i class="material-icons" id="magglass">search</i>
-            <form method="get" action="photoSearch"><input type="text" id="searchbox" name="search"> <input type="submit"></form>
+            <a id="search"><i class="material-icons" id="magglass">search</i></a>
+            <form method="get" action="photoSearch" id="searchBar"><input type="text" id="searchbox" name="search"></form>
             
         </div>
             
@@ -118,6 +119,10 @@
                
             });
             
+            //Submit form once image if clicked.
+	        $("a#search").click(function() {
+	        	$("form#searchBar").submit();
+	        });
         </script>
  
 </body>
