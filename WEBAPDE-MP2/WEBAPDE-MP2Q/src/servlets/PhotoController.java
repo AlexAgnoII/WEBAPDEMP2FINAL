@@ -65,13 +65,13 @@ public class PhotoController extends HttpServlet {
 			for (Photo p : test) {
 				System.out.println(p.getTitle());
 			}
-		
-		request.setAttribute("Photo", test);
-		
-		request.getRequestDispatcher("searchResult.jsp").forward(request,  response);
 		}
 		
 		else System.out.println("PHOTO NOT FOUND");
+		request.setAttribute("Photo", test);
+		
+		request.getRequestDispatcher("searchResult.jsp").forward(request,  response);
+
 	}
 	
 	public void addPhoto(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

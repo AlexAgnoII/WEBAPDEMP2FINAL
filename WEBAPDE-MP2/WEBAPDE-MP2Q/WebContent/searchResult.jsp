@@ -9,8 +9,14 @@
 </head>
 <body>
 	<h1> OHAIYO GOSAIMAS</h1>
-	<c:forEach items="${Photo}" var = "p">
-		<img src="${p.url}" alt="${p.title}">
-	</c:forEach>
+	<c:if test = "${not empty Photo}">
+		<c:forEach items="${Photo}" var = "p">
+			<img src="${p.url}" alt="${p.title}">
+		</c:forEach>
+	</c:if>
+	
+	<c:if test = "${empty Photo}">
+		<h1>No photo found.</h1>
+	</c:if>
 </body>
 </html>
