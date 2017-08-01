@@ -125,9 +125,12 @@ public class UserServlet extends HttpServlet {
 	}
 	
 	//Sign's the user up
-	private void signupUser(HttpServletRequest request, HttpServletResponse response) {
+	private void signupUser(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		// TODO Auto-generated method stub
-		
+		System.out.println(request.getParameter("username"));
+		System.out.println(request.getParameter("password"));
+		System.out.println(request.getParameter("desc"));
+		response.sendRedirect("homepage.jsp");
 	}
 
 }

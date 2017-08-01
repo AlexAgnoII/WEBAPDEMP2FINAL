@@ -32,13 +32,9 @@
               <!-- menu contents -->
               <ul id="menu" class='dropdown-content'>
               	  
-                  <li><a href="userfeed.jsp">home</a></li>
-                  <li><a href="profile.jsp">profile</a></li>
-                  <li><a href="logout">logout</a></li>
+                  <li><a href="homepage.jsp">Back</a></li>
                    <!-- Redirects to logout servlet. -->
               </ul>
-              
-              <p id="userwel">Welcome, ${sessionScope.un}!</p>
               
             <a id="search"><i class="material-icons" id="magglass">search</i></a>
             <form method="get" action="photoSearch" id="searchBar"><input type="text" id="searchbox" name="search"></form>
@@ -64,6 +60,16 @@
 		<c:if test = "${empty Photo}">
 			<h1 id="notFound">No photo found.</h1>
 		</c:if>
+		
+		<script>
+			$(document).ready(function() {
+				 //Submit form once image if clicked.
+		        $("a#search").click(function() {
+		        	$("form#searchBar").submit();
+		        });
+			});
+			
+		</script>
 	</div>   
 </body>
 </html>

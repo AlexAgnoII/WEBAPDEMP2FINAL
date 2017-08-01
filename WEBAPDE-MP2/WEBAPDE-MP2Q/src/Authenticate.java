@@ -68,14 +68,16 @@ public class Authenticate implements Filter {
 					if(proceed) { //forward to the welcome servlet.
 							System.out.println("Forwarding to welcome..");
 							//req.getRequestDispatcher("welcome").forward(request, response);
-							res.sendRedirect("welcome");
+							if(url.equals("/Access-denied.html"))
+								res.sendRedirect("welcome");
+							else res.sendRedirect("userfeed.jsp");
 					}
-					else if (url.equals("/Access-Denied.html")) {//if user is trying to access access-denied, redirect to homepage.
-
-							System.out.println("Continue to its page..");
-							chain.doFilter(request, response);
-					
-					}
+//					else if (url.equals("/Access-Denied.html")) {//if user is trying to access access-denied, redirect to homepage.
+//
+//							System.out.println("Continue to its page..");
+//							chain.doFilter(request, response);
+//					
+//					}
 					
 					else {//If its the homepage.jsp, just proceed.
 						System.out.println("Continue to its page..");
