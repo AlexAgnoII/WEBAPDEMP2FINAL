@@ -35,8 +35,9 @@
               <li><a href="userfeed.jsp">home</a></li>
               <li><a href="profile.jsp">profile</a></li>
               <li><a href="logout">logout</a></li> <!-- Redirects to logout servlet. -->
-
           </ul>
+          
+          <p id="userwel">Welcome, ${sessionScope.un}!</p>
             
             <a id="search"><i class="material-icons" id="magglass">search</i></a>
             <form method="get" action="photoSearch" id="searchBar"><input type="text" id="searchbox" name="search"></form>

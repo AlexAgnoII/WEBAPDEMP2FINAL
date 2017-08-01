@@ -44,11 +44,11 @@ p {
 }
 
 #upload, #back{
-    height: 5%;
+    height: 4%;
     width: 50%;
     margin: 0 auto;
     margin-top: 5px;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.9);
     border: 1px solid snow;
     box-shadow: 2px 2px 2px #252525;
     border-radius: 2px;
