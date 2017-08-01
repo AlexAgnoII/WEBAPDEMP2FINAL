@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 
 		<!-- <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> -->
-    	<title>Insert title here</title>
            <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
