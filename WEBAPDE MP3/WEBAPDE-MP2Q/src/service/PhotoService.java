@@ -13,8 +13,6 @@ import bean.Photo;
 
 public class PhotoService {
 	
-	public PhotoService() {}
-
 	public static List<Photo> getPublicPhotos() {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("mysqldb");
 		

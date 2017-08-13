@@ -1,7 +1,6 @@
 package servlets;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,7 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import bean.Photo;
+import bean.Tag;
 import service.PhotoService;
+import service.TagService;
 
 /**
  * Servlet implementation class PhotoController
@@ -83,8 +84,10 @@ public class PhotoController extends HttpServlet {
 		p.setPhoto_privacy(request.getParameter("privacy"));
 		
 		PhotoService.addPhoto(p);
-//		PhotoService ps = new PhotoService();
-//		request.setAttribute("Photo", ps.getPhotos());
+		
+		String tagNames[] = TagService.split(request.getParameter("tags"));
+		for(String t: tagNames)
+			System.out.println(t);
 		System.out.println("Photo added!");
 		System.out.println(request.getParameter("pic"));
 		System.out.println("I added photos.");
